@@ -1,0 +1,22 @@
+MASTER SERVICES AND SETTLEMENT AGREEMENT
+
+This Master Services Agreement ("Agreement") is entered into as of March 15, 2026 ("Effective Date"), by and between:
+1. PLAINTIFF: Johnathan Vance, residing at 742 Evergreen Terrace, Phoenix, AZ 85001 (SSN: XXX-XX-4321, Phone: 602-555-0199).
+2. DEFENDANT: Apex Global Logistics LLC, a Delaware corporation ("Apex").
+
+RECITALS
+WHEREAS, Parties desire to resolve outstanding dispute Case No. CV2025-009812 pending in Maricopa County Superior Court.
+
+TERMS AND CONDITIONS
+
+Section 1. Financial Settlement & Payment Terms
+Apex agrees to pay Plaintiff a total settlement sum of $450,000.00 USD. Initial payment of $150,000.00 shall be wired within 14 business days of signing. The remaining balance of $300,000.00 shall be remitted in equal monthly installments over 12 months. Failure to remit payment within 5 business days of the due date shall incur a late penalty of 18% APR per annum.
+
+Section 2. Indemnification & Liability
+Plaintiff agrees to indemnify, defend, and hold harmless Apex, its officers, and shareholders from any and all third-party claims, liabilities, or expenses exceeding $1,000.00. Apex's maximum cumulative liability under this agreement shall be capped strictly at $10,000.00 USD, regardless of cause or negligence.
+
+Section 3. Non-Compete and Restrictive Covenants
+For a period of 36 months following the Effective Date, Plaintiff shall not engage, directly or indirectly, in any business competing with Apex within a 50-mile radius of Phoenix, Arizona.
+
+Section 4. Dispute Resolution & Governing Law
+This Agreement shall be governed by and construed under the laws of the State of Delaware. Any disputes arising hereunder shall be submitted to binding arbitration in Wilmington, Delaware. The prevailing party shall NOT be entitled to recover attorney fees.
