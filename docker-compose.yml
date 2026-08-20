@@ -1,0 +1,39 @@
+services:
+  temporal:
+    image: temporalio/temporal:latest
+    entrypoint: ["temporal", "server", "start-dev", "--ip", "0.0.0.0"]
+    ports:
+      - "7233:7233"
+      - "8233:8233"
+    networks:
+      - app-network
+
+  worker:
+    build: .
+    ports:
+      - "8222:8000"
+    command: uvicorn src.api:app --host 0.0.0.0 --port 8000
+    environment:
+      - TEMPORAL_ADDRESS=temporal:7233
+      - PYTHONPATH=/app
+    depends_on:
+      - temporal
+    networks:
+      - app-network
+
+  task-runner:
+    build: .
+    command: python src/worker.py
+    environment:
+      - TEMPORAL_ADDRESS=temporal:7233
+      - PYTHONPATH=/app
+      - LITELLM_BASE_URL=http://192.168.68.62:4000/v1
+      - LITELLM_MODEL=ollama/qwen2.5-coder
+      - LITELLM_API_KEY=sk-1234
+    depends_on:
+      - temporal
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
